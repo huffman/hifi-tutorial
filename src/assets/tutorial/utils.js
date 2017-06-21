@@ -9,6 +9,8 @@
 //
 
 Utils = {
+    CHANNEL_SKIP_TUTORIAL: "skip-tutorial",
+
     findEntity: function(properties, searchRadius, filterFn) {
         var entities = findEntities(properties, searchRadius, filterFn);
         return entities.length > 0 ? entities[0] : null;
@@ -41,5 +43,12 @@ Utils = {
         }
 
         return matchedEntities;
+    },
+
+    sendSkipTutorialMessage: function() {
+        print("Skipping tutorial");
+        Messages.sendLocalMessage(Utils.CHANNEL_SKIP_TUTORIAL, "skip");
     }
 };
+
+module.exports = Utils;

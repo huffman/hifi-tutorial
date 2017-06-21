@@ -11,3 +11,9 @@ To generate a build inside of your AppData folder:
 `./build.py sync -o ~/AppData/Roaming/High\ Fidelity`
 
 When first generating a fresh build using `sync`, the models.json in the src folder will be copied to the build folder. On subsequent runs of `sync`, you will be prompted as to whether you want to copy the `models.json.gz` in the build folder to your src folder.
+
+# package command
+
+To generate an archive:
+
+`./build.py package build tutorial.tar.gz`

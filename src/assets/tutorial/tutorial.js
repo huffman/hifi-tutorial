@@ -12,6 +12,8 @@ Script.include("entityData.js");
 Script.include("lighter/createButaneLighter.js");
 Script.include("tutorialEntityIDs.js");
 
+var utils = Script.require("./utils.js");
+
 if (!Function.prototype.bind) {
   Function.prototype.bind = function(oThis) {
     if (typeof this !== 'function') {
@@ -577,7 +579,7 @@ stepNearGrab.prototype = {
         this.birdIDs.push(createBlock.bind(this)(2));
         this.positionWatcher = new PositionWatcher(this.birdIDs, boxSpawnPosition, -0.4, 4);
     },
-    onMessage: function(channel, message, seneder) {
+    onMessage: function(channel, message, sender) {
         if (this.finished) {
             return;
         }
@@ -659,7 +661,7 @@ stepFarGrab.prototype = {
         this.birdIDs.push(createBlock.bind(this)(5));
         this.positionWatcher = new PositionWatcher(this.birdIDs, boxSpawnPosition, -0.4, 4);
     },
-    onMessage: function(channel, message, seneder) {
+    onMessage: function(channel, message, sender) {
         if (this.finished) {
             return;
         }
@@ -1047,22 +1049,6 @@ stepFinish.prototype = {
     }
 };
 
-var stepCleanupFinish = function() {
-    this.name = 'cleanup';
-
-    this.shouldLog = false;
-}
-stepCleanupFinish.prototype = {
-    start: function(onFinish) {
-        hideEntitiesWithTag('finish');
-        onFinish();
-    },
-    cleanup: function() {
-    }
-};
-
-
-
 
 
 TutorialManager = function() {
@@ -1080,6 +1066,27 @@ TutorialManager = function() {
 
     var self = this;
 
+    this.onMessage = function(channel, message, sender) {
+        if (channel == utils.CHANNEL_SKIP_TUTORIAL) {
+            self.skipTutorial();
+        }
+    }
+
+    Messages.subscribe(utils.CHANNEL_SKIP_TUTORIAL);
+    Messages.messageReceived.connect(self, self.onMessage);
+
+    //TUTORIAL_MAPPING_NAME = 'mapping.tutorial';
+    //var mapping = Controller.newMapping(TUTORIAL_MAPPING_NAME);
+    //mapping.from([Controller.Hardware.Keyboard.Z, Controller.Hardware.GamePad.L3, Controller.Hardware.GamePad.R3]).to(function() {
+        //UserActivityLogger.logAction("tutorial_skipped", {
+            //step_number: currentStepNum,
+        //});
+        //self.stopTutorial();
+        //Settings.setValue("tutorialComplete", true);
+        //location.goToEntry();
+    //});
+
+
     // The real controller name is the actual detected controller name, or 'unknown'
     // if one is not found.
     if (HMD.isSubdeviceContainingNameAvailable("OculusTouch")) {
@@ -1094,10 +1101,21 @@ TutorialManager = function() {
         this.realControllerName = "unknown";
     }
 
+    this.skipTutorial = function() {
+        UserActivityLogger.logAction("tutorial_skipped", {
+            step_number: currentStepNum,
+        });
+        self.stopTutorial();
+        Settings.setValue("tutorialComplete", true);
+        location = "/tutorial_end";
+    };
+
     this.startTutorial = function() {
         currentStepNum = -1;
         currentStep = null;
         startedTutorialAt = Date.now();
+
+        //Controller.enableMapping(TUTORIAL_MAPPING_NAME);
 
         // Old versions of interface do not have the Script.generateUUID function.
         // If Script.generateUUID is not available, default to an empty string.
@@ -1119,7 +1137,7 @@ TutorialManager = function() {
         }
         MyAvatar.shouldRenderLocally = false;
         this.startNextStep();
-    }
+    };
 
     this.onFinish = function() {
         debug("onFinish", currentStepNum);
@@ -1128,7 +1146,7 @@ TutorialManager = function() {
         }
 
         self.startNextStep();
-    }
+    };
 
     this.startNextStep = function() {
         if (currentStep) {
@@ -1146,6 +1164,9 @@ TutorialManager = function() {
         if (currentStepNum >= STEPS.length) {
             // Done
             info("DONE WITH TUTORIAL");
+
+            //Controller.disableMapping(TUTORIAL_MAPPING_NAME);
+
             currentStepNum = -1;
             currentStep = null;
             didFinishTutorial = true;
@@ -1163,17 +1184,18 @@ TutorialManager = function() {
             currentStep.cleanup();
             currentStep.start(this.onFinish);
         }
-    }
+    };
 
     this.stopTutorial = function() {
-        if (currentStep) {
-            currentStep.cleanup();
+        for (var i = currentStepNum; i < STEPS.length; ++i) {
+            STEPS[i].cleanup();
             HMD.requestHideHandControllers();
         }
+        //Controller.disableMapping(TUTORIAL_MAPPING_NAME);
         reenableEverything();
         currentStepNum = -1;
         currentStep = null;
-    }
+    };
 
     this.trackStep = function(name, stepNum) {
         var timeToFinishStep = (Date.now() - startedLastStepAt) / 1000;
@@ -1181,7 +1203,7 @@ TutorialManager = function() {
         UserActivityLogger.tutorialProgress(
                 name, stepNum, timeToFinishStep, tutorialTimeElapsed,
                 tutorialID, VERSION, this.realControllerName);
-    }
+    };
 
     // This is a message sent from the "entry" portal in the courtyard,
     // after the tutorial has finished.
@@ -1191,7 +1213,7 @@ TutorialManager = function() {
             info("Tracking wentToEntry");
             this.trackStep("wentToEntry", wentToEntryStepNum);
         }
-    }
+    };
 }
 
 // To run the tutorial:
