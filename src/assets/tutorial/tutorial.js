@@ -1035,20 +1035,22 @@ stepTeleport.prototype = {
 var stepFinish = function() {
     this.name = 'finish';
 
-    this.tag = "finish";
-    this.tempTag = "finish-temporary";
+    //this.tag = "finish";
+    //this.tempTag = "finish-temporary";
 }
 stepFinish.prototype = {
     start: function(onFinish) {
         editEntitiesWithTag('door', { visible: false, collisonless: true });
-        showEntitiesWithTag(this.tag);
+        showFinishEntities();
         Settings.setValue("tutorialComplete", true);
         onFinish();
     },
     cleanup: function() {
     }
 };
-
+function showFinishEntities() {
+    showEntitiesWithTag('finish');
+}
 
 
 TutorialManager = function() {
@@ -1107,6 +1109,7 @@ TutorialManager = function() {
         });
         self.stopTutorial();
         Settings.setValue("tutorialComplete", true);
+        showFinishEntities();
         location = "/tutorial_end";
     };
 

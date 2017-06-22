@@ -9,7 +9,7 @@
                 "z": 1.4424498081207275
             },
             "id": "{d80b36a0-a3b3-4bde-9729-569ff797904b}",
-            "lastEdited": 1493674604740068,
+            "lastEdited": 1498148846981665,
             "lastEditedBy": "{f5572ade-03bb-4b22-9693-3a059eb236bf}",
             "locked": 1,
             "name": "portal-ramp",
@@ -50,7 +50,7 @@
             },
             "friction": 0,
             "id": "{ce12e2cb-494b-4139-af2c-cf965fc1da54}",
-            "lastEdited": 1493674604747993,
+            "lastEdited": 1498148846981867,
             "lastEditedBy": "{867d9ed0-fbd5-453f-a3b6-84924cb1c90f}",
             "modelURL": "atp:/alan/dev/Teleport-Pad.fbx",
             "name": "Portal-Glow",
@@ -69,10 +69,10 @@
             },
             "restitution": 0,
             "rotation": {
-                "w": -0.15496411919593811,
-                "x": -0.00017695693532004952,
-                "y": -0.98792016506195068,
-                "z": 9.7250549515592866e-06
+                "w": -0.99997705221176147,
+                "x": -3.1455725547857583e-05,
+                "y": 0.0067743952386081219,
+                "z": -0.00012420778512023389
             },
             "type": "Model",
             "userData": "playa"
@@ -86,7 +86,7 @@
                 "z": 0.10614693164825439
             },
             "id": "{6012f721-9dbc-45ff-9f1c-9bdf81875925}",
-            "lastEdited": 1493674604764508,
+            "lastEdited": 1498148846982020,
             "modelURL": "atp:/jimi/tutorialroom/bottle2.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -117,6 +117,90 @@
                 "green": 0,
                 "red": 255
             },
+            "created": "2017-06-22T16:28:16Z",
+            "dimensions": {
+                "x": 0.92185670137405396,
+                "y": 0.38520020246505737,
+                "z": 0.49426007270812988
+            },
+            "id": "{e53b8dd9-499e-46ae-809b-f088f8ceec8c}",
+            "ignoreForCollisions": 1,
+            "lastEdited": 1498150629332259,
+            "lastEditedBy": "{371908bf-c2d4-4075-ad47-fcbfac0922ff}",
+            "name": "tutorial/skip_click1",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "x": -9.518153190612793,
+                "y": 1.313267707824707,
+                "z": 3.8372654914855957
+            },
+            "queryAACube": {
+                "scale": 1.1146712303161621,
+                "x": -10.075489044189453,
+                "y": 0.75593209266662598,
+                "z": 3.2799298763275146
+            },
+            "rotation": {
+                "w": 1,
+                "x": -1.52587890625e-05,
+                "y": -1.52587890625e-05,
+                "z": -1.52587890625e-05
+            },
+            "script": "atp:/tutorial/skipClickEC.js",
+            "shape": "Cube",
+            "type": "Box",
+            "userData": "{\"grabbableKey\":{\"wantsTrigger\":true,\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": 0,
+            "collisionless": 1,
+            "color": {
+                "blue": 0,
+                "green": 0,
+                "red": 255
+            },
+            "created": "2017-06-22T16:47:56Z",
+            "dimensions": {
+                "x": 0.92185670137405396,
+                "y": 0.38520020246505737,
+                "z": 0.49426007270812988
+            },
+            "id": "{1040c756-07bc-4f9e-9f4f-424f9df6b8d7}",
+            "ignoreForCollisions": 1,
+            "lastEdited": 1498150145682790,
+            "lastEditedBy": "{371908bf-c2d4-4075-ad47-fcbfac0922ff}",
+            "name": "tutorial/skip_click2",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "x": -0.96422833204269409,
+                "y": 1.313267707824707,
+                "z": 2.8429198265075684
+            },
+            "queryAACube": {
+                "scale": 1.1146712303161621,
+                "x": -1.5215640068054199,
+                "y": 0.75593209266662598,
+                "z": 2.2855842113494873
+            },
+            "rotation": {
+                "w": 1,
+                "x": -1.52587890625e-05,
+                "y": -1.52587890625e-05,
+                "z": -1.52587890625e-05
+            },
+            "script": "atp:/tutorial/skipClickEC.js",
+            "shape": "Cube",
+            "type": "Box",
+            "userData": "{\"grabbableKey\":{\"wantsTrigger\":true,\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": 0,
+            "collisionless": 1,
+            "color": {
+                "blue": 0,
+                "green": 0,
+                "red": 255
+            },
             "created": "2016-09-08T19:26:28Z",
             "dimensions": {
                 "x": 0.20000000298023224,
@@ -125,7 +209,7 @@
             },
             "id": "{201d0ef7-d88e-4ab0-a892-3f5a753d9bea}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604767736,
+            "lastEdited": 1498148846982177,
             "locked": 1,
             "name": "sound/b",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -165,7 +249,7 @@
                 "z": 0.042099431157112122
             },
             "id": "{80abeb3e-15bc-4b55-8cc3-04274bced21c}",
-            "lastEdited": 1493674604772381,
+            "lastEdited": 1498148846982307,
             "name": "lighter_sound_butane",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -219,7 +303,7 @@
             "emitSpeed": 0.0070000002160668373,
             "id": "{8bf0baa1-88d0-448a-a782-100d4413bd82}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604777069,
+            "lastEdited": 1498148846982473,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "lifespan": 0.2800000011920929,
             "maxParticles": 820,
@@ -268,7 +352,7 @@
                 "z": 0
             },
             "id": "{5685635a-1865-4d91-b232-86522231544c}",
-            "lastEdited": 1493674604781829,
+            "lastEdited": 1498148846982639,
             "lastEditedBy": "{b9f33f23-6caf-458b-96ff-facdcf2fd78b}",
             "modelURL": "http://mpassets.highfidelity.com/c3f639ca-a75e-42bc-9ab9-9fa053278271-v1/PizzaBox_TP.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -309,7 +393,7 @@
                 "z": 0
             },
             "id": "{907b8119-5dde-43d3-b778-8f2f97e0d008}",
-            "lastEdited": 1493674604786718,
+            "lastEdited": 1498148846982791,
             "lastEditedBy": "{b9f33f23-6caf-458b-96ff-facdcf2fd78b}",
             "modelURL": "http://mpassets.highfidelity.com/c3f639ca-a75e-42bc-9ab9-9fa053278271-v1/PizzaBox_TP.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -343,7 +427,7 @@
                 "z": 1.389374852180481
             },
             "id": "{6434d4ed-3fdb-44e1-baf6-cdfc02c08fa2}",
-            "lastEdited": 1493674604791402,
+            "lastEdited": 1498148846982968,
             "lastEditedBy": "{f5572ade-03bb-4b22-9693-3a059eb236bf}",
             "locked": 1,
             "name": "portal-ramp",
@@ -384,7 +468,7 @@
             },
             "friction": 0,
             "id": "{eb7ed8e2-78d6-4aa9-9302-26c9c5046170}",
-            "lastEdited": 1493674604795964,
+            "lastEdited": 1498148846983173,
             "lastEditedBy": "{01287c59-04ae-4886-a51d-c00ed68fb642}",
             "modelURL": "atp:/alan/dev/Teleport-Pad.fbx",
             "name": "Portal-Glow",
@@ -403,10 +487,10 @@
             },
             "restitution": 0,
             "rotation": {
-                "w": 0.17634622752666473,
-                "x": 0.00014048976299818605,
-                "y": 0.98432821035385132,
-                "z": -5.1002414693357423e-05
+                "w": 0.99958497285842896,
+                "x": 6.5766857005655766e-05,
+                "y": -0.028809897601604462,
+                "z": 8.2158672739751637e-05
             },
             "type": "Model",
             "userData": "playa"
@@ -429,7 +513,7 @@
             },
             "id": "{70add171-b2ae-44ee-b22a-18db4286ebd4}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604800135,
+            "lastEdited": 1498148846983311,
             "lastEditedBy": "{01287c59-04ae-4886-a51d-c00ed68fb642}",
             "locked": 1,
             "name": "EZPortal-Return-Welcome",
@@ -474,7 +558,7 @@
             },
             "id": "{66ecf859-42de-4de5-b55e-60a7b7ce48f7}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604800417,
+            "lastEdited": 1498148846983447,
             "locked": 1,
             "name": "sound/c",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -516,7 +600,7 @@
             },
             "id": "{63af7f58-f5d3-4ec3-bcfe-274556446c7a}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604800722,
+            "lastEdited": 1498148846984137,
             "lastEditedBy": "{a5815baa-efbc-4f3a-81e5-a5187b251dda}",
             "name": "tutorial/turnAround_touch",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -558,7 +642,7 @@
             },
             "id": "{188b7d6a-dd00-4810-ba23-da4970c0eeba}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604804465,
+            "lastEdited": 1498148846984696,
             "lastEditedBy": "{af66e19f-7855-4994-9884-51046e54505e}",
             "name": "tutorial/turnAround_vive",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -600,7 +684,7 @@
             },
             "id": "{0733b7d5-9392-4b16-9d61-a4ae1afa0fc5}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604804693,
+            "lastEdited": 1498148846984854,
             "lastEditedBy": "{15a760fc-9464-424c-9db4-ef540bd91367}",
             "name": "tutorial/teleport_vive",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -642,7 +726,7 @@
             },
             "id": "{7a7af769-be88-4e54-996f-f5e9e579f23b}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604804929,
+            "lastEdited": 1498148846984978,
             "lastEditedBy": "{d2569b63-a272-4d5a-b576-86a636cb950c}",
             "name": "tutorial/equip_part2_touch",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -682,7 +766,7 @@
                 "z": 0.20000000298023224
             },
             "id": "{c4492d55-2092-4acf-b51a-f337b6f28e50}",
-            "lastEdited": 1493674604809374,
+            "lastEdited": 1498148846985119,
             "locked": 1,
             "name": "sound/wind",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -725,7 +809,7 @@
                 "z": 0
             },
             "id": "{66d30b40-92b9-4718-8c89-9ff655daf88e}",
-            "lastEdited": 1493674604809642,
+            "lastEdited": 1498148846985251,
             "lastEditedBy": "{70cd072e-84ad-4c9b-85a7-3f064ace609c}",
             "modelURL": "atp:/DomainContent/Tutorial/Models/tea_light.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -767,7 +851,7 @@
                 "z": 0
             },
             "id": "{7a42d3cb-45c3-495c-a27c-424b29917535}",
-            "lastEdited": 1493674604814493,
+            "lastEdited": 1498148846985395,
             "lastEditedBy": "{70cd072e-84ad-4c9b-85a7-3f064ace609c}",
             "modelURL": "atp:/DomainContent/Tutorial/Models/tea_light.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -834,7 +918,7 @@
             "emitRate": 1000,
             "emitSpeed": 0.20000000298023224,
             "id": "{0b15ae47-6f9b-4b8d-839a-884cf44c294b}",
-            "lastEdited": 1493674604818972,
+            "lastEdited": 1498148846985562,
             "lastEditedBy": "{e5eead1d-4d12-4eca-a0f1-eb6aa6068aa0}",
             "lifespan": 0.80000001192092896,
             "maxParticles": 60000,
@@ -907,7 +991,7 @@
             "emitRate": 1000,
             "emitSpeed": 0.20000000298023224,
             "id": "{2bdf560b-de20-489a-883e-c16ffa81e4f6}",
-            "lastEdited": 1493674604824154,
+            "lastEdited": 1498148846985761,
             "lastEditedBy": "{e5eead1d-4d12-4eca-a0f1-eb6aa6068aa0}",
             "lifespan": 0.80000001192092896,
             "maxParticles": 60000,
@@ -953,7 +1037,7 @@
             },
             "id": "{93b3c260-7219-40dc-a0b8-376ffe331e45}",
             "intensity": 5,
-            "lastEdited": 1493674604824424,
+            "lastEdited": 1498148846985894,
             "lastEditedBy": "{e5eead1d-4d12-4eca-a0f1-eb6aa6068aa0}",
             "name": "raveLight",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -989,7 +1073,7 @@
             "dynamic": 1,
             "id": "{452b4ba5-4b93-4f3c-a965-31a6ea8cab3b}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604824695,
+            "lastEdited": 1498148846986047,
             "lastEditedBy": "{e5eead1d-4d12-4eca-a0f1-eb6aa6068aa0}",
             "modelURL": "http://hifi-content.s3.amazonaws.com/caitlyn/production/raveStick/newRaveStick2.fbx?v=0.6774211255833507",
             "name": "raveStick",
@@ -1031,7 +1115,7 @@
             },
             "id": "{ef097e10-3c90-4b25-8dcd-d52d979c3d1f}",
             "intensity": 5,
-            "lastEdited": 1493674604824960,
+            "lastEdited": 1498148846986206,
             "lastEditedBy": "{e5eead1d-4d12-4eca-a0f1-eb6aa6068aa0}",
             "name": "raveLight",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -1067,7 +1151,7 @@
             "dynamic": 1,
             "id": "{eafd1913-3e89-4a94-876b-b78a55fddec9}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604827803,
+            "lastEdited": 1498148846986359,
             "lastEditedBy": "{e5eead1d-4d12-4eca-a0f1-eb6aa6068aa0}",
             "modelURL": "http://hifi-content.s3.amazonaws.com/caitlyn/production/raveStick/newRaveStick2.fbx?v=0.6774211255833507",
             "name": "raveStick",
@@ -1111,7 +1195,7 @@
             "dynamic": 1,
             "id": "{f486b7f0-ed1a-4517-b7ca-6bdab34f5db2}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604828084,
+            "lastEdited": 1498148846986508,
             "lastEditedBy": "{b9f33f23-6caf-458b-96ff-facdcf2fd78b}",
             "modelURL": "http://hifi-content.s3.amazonaws.com/caitlyn/production/raveStick/newRaveStick2.fbx?v=0.6774211255833507",
             "name": "raveStick",
@@ -1180,7 +1264,7 @@
             "emitRate": 1000,
             "emitSpeed": 0.20000000298023224,
             "id": "{95aa7551-d5d6-4796-aa2c-31bec48a1fff}",
-            "lastEdited": 1493674604833549,
+            "lastEdited": 1498148846986670,
             "lastEditedBy": "{b9f33f23-6caf-458b-96ff-facdcf2fd78b}",
             "lifespan": 0.80000001192092896,
             "maxParticles": 60000,
@@ -1253,7 +1337,7 @@
             "emitRate": 1000,
             "emitSpeed": 0.20000000298023224,
             "id": "{e350a21a-9eb4-4598-9aab-38f66cf7b98e}",
-            "lastEdited": 1493674604833858,
+            "lastEdited": 1498148846986891,
             "lastEditedBy": "{b9f33f23-6caf-458b-96ff-facdcf2fd78b}",
             "lifespan": 0.80000001192092896,
             "maxParticles": 60000,
@@ -1299,7 +1383,7 @@
             },
             "id": "{4bb3aafe-24e9-4c4b-8bf5-39c9c5807b97}",
             "intensity": 5,
-            "lastEdited": 1493674604834185,
+            "lastEdited": 1498148846987012,
             "lastEditedBy": "{b9f33f23-6caf-458b-96ff-facdcf2fd78b}",
             "name": "raveLight",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -1333,7 +1417,7 @@
             },
             "id": "{2c27c5db-f959-46e9-ae9c-5e8a774e9e0b}",
             "intensity": 5,
-            "lastEdited": 1493674604834425,
+            "lastEdited": 1498148846987140,
             "lastEditedBy": "{b9f33f23-6caf-458b-96ff-facdcf2fd78b}",
             "name": "raveLight",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -1369,7 +1453,7 @@
             "dynamic": 1,
             "id": "{d9629d67-02f0-4330-bb33-00a4956d7532}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604834717,
+            "lastEdited": 1498148846987274,
             "lastEditedBy": "{b9f33f23-6caf-458b-96ff-facdcf2fd78b}",
             "modelURL": "http://hifi-content.s3.amazonaws.com/caitlyn/production/raveStick/newRaveStick2.fbx?v=0.6774211255833507",
             "name": "raveStick",
@@ -1412,7 +1496,7 @@
             },
             "id": "{9df518da-9e65-4b76-8a79-eeefdb0b7310}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604834983,
+            "lastEdited": 1498148846987416,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "name": "tutorial/gun_spawn",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -1454,7 +1538,7 @@
             },
             "id": "{5cf22b9c-fb22-4854-8821-554422980b24}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604840406,
+            "lastEdited": 1498148846987584,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "name": "tutorial/nearGrab/box_spawn",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -1496,7 +1580,7 @@
             },
             "id": "{70fcd96c-cd59-4f23-9ca5-a167f2f85680}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604840696,
+            "lastEdited": 1498148846987705,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "name": "tutorial/farGrab/box_spawn",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -1533,7 +1617,7 @@
             },
             "id": "{95850c56-cd1c-42b9-ab6b-a163a6f2878f}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604840965,
+            "lastEdited": 1498148846987830,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/jimi/tutorialroom/box.fbx",
             "name": "tutorial_firework_box2",
@@ -1574,7 +1658,7 @@
                 "z": 0.20000000298023224
             },
             "id": "{d9085e6b-f370-42de-ad8c-114c1fb0277f}",
-            "lastEdited": 1493674604845368,
+            "lastEdited": 1498148846987959,
             "locked": 1,
             "name": "sound/d",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -1616,7 +1700,7 @@
             },
             "id": "{030494b4-9485-47b1-9167-52a961f7e905}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604849398,
+            "lastEdited": 1498148846988133,
             "locked": 1,
             "name": "sound/bamboo",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -1658,7 +1742,7 @@
             },
             "id": "{52418bff-a62d-45b7-879a-28504bb17159}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604849633,
+            "lastEdited": 1498148846988278,
             "name": "sound/a",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -1697,7 +1781,7 @@
                 "z": 0.20000000298023224
             },
             "id": "{20971d6b-f7fe-43a3-8613-40a92d03fb37}",
-            "lastEdited": 1493674604849878,
+            "lastEdited": 1498148846988418,
             "locked": 1,
             "name": "sound/water",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -1719,7 +1803,7 @@
         },
         {
             "animation": {
-                "currentFrame": 91346.7421875,
+                "currentFrame": 73262.140625,
                 "running": 1,
                 "url": "atp:/jimi/tutorialroom/bannerLeft.fbx"
             },
@@ -1732,7 +1816,7 @@
                 "z": 0.036516401916742325
             },
             "id": "{6addeb11-c920-4d4d-a385-d8198183217d}",
-            "lastEdited": 1493674604853827,
+            "lastEdited": 1498148846988559,
             "lastEditedBy": "{e68741db-f9aa-4854-81f8-850b672cc6ee}",
             "locked": 1,
             "modelURL": "atp:/bannerRight.fbx",
@@ -1760,7 +1844,7 @@
         },
         {
             "animation": {
-                "currentFrame": 87577.859375,
+                "currentFrame": 69493.09375,
                 "running": 1,
                 "url": "atp:/bannerLeft.fbx"
             },
@@ -1772,7 +1856,7 @@
                 "z": 0.035212248563766479
             },
             "id": "{50cc16e1-91df-4d81-a7c5-57a2a80aa3c8}",
-            "lastEdited": 1493674604858914,
+            "lastEdited": 1498148846988696,
             "lastEditedBy": "{e68741db-f9aa-4854-81f8-850b672cc6ee}",
             "locked": 1,
             "modelURL": "atp:/bannerLeft.fbx",
@@ -1827,7 +1911,7 @@
             "emitSpeed": 0,
             "id": "{8d1db615-adb8-4dc5-9f42-5ad69a6e7ea8}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604859198,
+            "lastEdited": 1498148846988826,
             "lifespan": 1,
             "name": "tutorial/preload/explode",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -1892,7 +1976,7 @@
             "emitterShouldTrail": 1,
             "id": "{e9481c78-1a21-43f7-b54c-58f2efdf3c8f}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604862287,
+            "lastEdited": 1498148846989004,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "lifespan": 0.44999998807907104,
             "maxParticles": 470,
@@ -1964,7 +2048,7 @@
             "emitterShouldTrail": 1,
             "id": "{09ddcb94-52a7-4f50-a5a2-db9db28fc519}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604866662,
+            "lastEdited": 1498148846989166,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "lifespan": 0.67000001668930054,
             "maxParticles": 130,
@@ -2034,7 +2118,7 @@
             "emitterShouldTrail": 1,
             "id": "{d73822ca-0a34-4cf4-a530-3258ac459a14}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604871795,
+            "lastEdited": 1498148846989307,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "lifespan": 0.57999998331069946,
             "maxParticles": 120,
@@ -2081,7 +2165,7 @@
             },
             "id": "{4478f7b5-d3ac-4213-9a7b-ad8cd69575b8}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604872084,
+            "lastEdited": 1498148846989446,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/alan/dev/Teleport-Pad.fbx",
             "name": "tutorial/teleport/pad",
@@ -2098,10 +2182,10 @@
                 "z": -1.4602710008621216
             },
             "rotation": {
-                "w": -0.55732762813568115,
-                "x": -1.6544683603569865e-05,
-                "y": -0.83029270172119141,
-                "z": -1.3469991245074198e-05
+                "w": 0.7398105263710022,
+                "x": -1.57467966346303e-05,
+                "y": -0.67281532287597656,
+                "z": 1.4396562619367614e-05
             },
             "type": "Model",
             "userData": "{\"tag\":\"teleport\"}",
@@ -2152,7 +2236,7 @@
             "emitRate": 80,
             "emitSpeed": 0.039999999105930328,
             "id": "{3028dcc9-237a-48e8-95f9-a008375a1e95}",
-            "lastEdited": 1493674604881620,
+            "lastEdited": 1498148846989594,
             "lifespan": 33,
             "locked": 1,
             "maxParticles": 6960,
@@ -2192,7 +2276,7 @@
                 "z": 1.7904725074768066
             },
             "id": "{ca7f0fe7-719e-48c8-a048-5777d6cef238}",
-            "lastEdited": 1493674604881843,
+            "lastEdited": 1498148846989712,
             "locked": 1,
             "modelURL": "atp:/alan/dev/Screen-Test-3-sunny.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -2224,7 +2308,7 @@
                 "z": 1.8025176525115967
             },
             "id": "{e7843a9f-a7fc-4059-b104-2dc45d9f4a41}",
-            "lastEdited": 1493674604882014,
+            "lastEdited": 1498148846989834,
             "locked": 1,
             "modelURL": "atp:/alan/dev/Screen-Test-3.fbx",
             "name": "tutorial_area_screen_left",
@@ -2257,7 +2341,7 @@
                 "z": 4.067772388458252
             },
             "id": "{87b8e415-859a-445f-8408-a6c1555acff0}",
-            "lastEdited": 1493674604885531,
+            "lastEdited": 1498148846989945,
             "locked": 1,
             "modelURL": "atp:/alan/dev/Sunbeam.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -2289,7 +2373,7 @@
                 "z": 3.142277717590332
             },
             "id": "{d1bc09f9-8464-46e7-9967-0547e322a0e8}",
-            "lastEdited": 1493674604885782,
+            "lastEdited": 1498148846990055,
             "locked": 1,
             "modelURL": "atp:/alan/dev/Sunbeam.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -2321,7 +2405,7 @@
                 "z": 6.0491595268249512
             },
             "id": "{71f39652-0be6-4861-9693-4af0326950b9}",
-            "lastEdited": 1493674604890405,
+            "lastEdited": 1498148846990164,
             "locked": 1,
             "modelURL": "atp:/alan/dev/bamboo-b.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -2353,7 +2437,7 @@
                 "z": 3.5095539093017578
             },
             "id": "{91e9aecc-213f-4ab7-a658-509072f43665}",
-            "lastEdited": 1493674604890635,
+            "lastEdited": 1498148846990273,
             "locked": 1,
             "modelURL": "atp:/alan/dev/Sunbeam.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -2385,7 +2469,7 @@
                 "z": 2.9926810264587402
             },
             "id": "{c70cc639-e98b-4b0c-90a3-45b742f4a383}",
-            "lastEdited": 1493674604890779,
+            "lastEdited": 1498148846990386,
             "locked": 1,
             "modelURL": "atp:/alan/dev/Sunbeam.fbx",
             "name": "environment/sunbeam",
@@ -2418,7 +2502,7 @@
                 "z": 1.6093252952487092e-07
             },
             "id": "{340e05b5-88df-4b2b-b43c-756dd714d6d8}",
-            "lastEdited": 1493674604890913,
+            "lastEdited": 1498148846990552,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/alan/dev/Prompt-Cards/finish.fbx",
             "name": "tutorial/teleport",
@@ -2453,7 +2537,7 @@
                 "z": 28.623779296875
             },
             "id": "{4288854e-a02e-4757-bed8-a79f044143c7}",
-            "lastEdited": 1493674604891041,
+            "lastEdited": 1498148846990670,
             "locked": 1,
             "modelURL": "atp:/alan/dev/FTUE-Pavillion-1.9.fbx",
             "name": "environment/pavilion",
@@ -2489,7 +2573,7 @@
             },
             "id": "{6307cd16-dd1d-4988-a339-578178436b45}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604896097,
+            "lastEdited": 1498148846990795,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/alan/dev/Prompt-Cards/equip-part2.fbx",
             "name": "tutorial/equip_part2-vive",
@@ -2526,7 +2610,7 @@
             },
             "id": "{97ced5e7-fc81-40f9-a9e8-f85b4b30f24c}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604896329,
+            "lastEdited": 1498148846990910,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/alan/dev/Prompt-Cards/equip.fbx",
             "name": "tutorial/equip-vive",
@@ -2563,7 +2647,7 @@
             },
             "id": "{e11700f6-bc9a-411f-9ddc-bf265d4e3ccf}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604896549,
+            "lastEdited": 1498148846991054,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/alan/dev/Prompt-Cards/farGrab.fbx",
             "name": "tutorial/farGrab",
@@ -2600,7 +2684,7 @@
             },
             "id": "{88221a22-b710-4d35-852b-5257b0aa77dc}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604896771,
+            "lastEdited": 1498148846991182,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/alan/dev/Prompt-Cards/nearGrab.fbx",
             "name": "tutorial/nearGrab-vive",
@@ -2637,7 +2721,7 @@
             },
             "id": "{ce74b3ca-d1c7-4980-bd98-2d488095a39e}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604896991,
+            "lastEdited": 1498148846991298,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/alan/dev/Prompt-Cards/turnAround-oculus.fbx",
             "name": "tutorial/turnAround",
@@ -2687,7 +2771,7 @@
                 },
                 "intensity": 0.10000000149011612
             },
-            "lastEdited": 1493674604900546,
+            "lastEdited": 1498148846991436,
             "name": "Testing-Skybox",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -2748,7 +2832,7 @@
             "emitSpeed": 0.18000000715255737,
             "id": "{52445ac5-8730-4457-827e-6c076d2c609c}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604906326,
+            "lastEdited": 1498148846991878,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "lifespan": 0.49000000953674316,
             "maxParticles": 820,
@@ -2800,9 +2884,9 @@
             },
             "id": "{215dcd14-88fc-4604-9033-cbd2a660178a}",
             "ignoreForCollisions": 1,
-            "intensity": 309.13287353515625,
-            "lastEdited": 1493675215062650,
-            "lastEditedBy": "{63654088-0eb8-4bc4-8199-d64da78b572e}",
+            "intensity": 256.73776245117188,
+            "lastEdited": 1498151577165749,
+            "lastEditedBy": "{371908bf-c2d4-4075-ad47-fcbfac0922ff}",
             "name": "tutorial/firepit_light",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "parentID": "{178e2c71-dff5-4231-8d28-df47fddf4709}",
@@ -2844,7 +2928,7 @@
                 "z": 0
             },
             "id": "{281d5716-acf1-4bfb-b567-fdb2bb2e41bf}",
-            "lastEdited": 1493674604911549,
+            "lastEdited": 1498148846992148,
             "locked": 1,
             "modelURL": "atp:/alan/dev/bamboo-b.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -2876,7 +2960,7 @@
                 "z": 4.3250598907470703
             },
             "id": "{2b361124-4c1f-4fe2-8456-3a7a631f50a2}",
-            "lastEdited": 1493674604911793,
+            "lastEdited": 1498148846992265,
             "locked": 1,
             "modelURL": "atp:/alan/dev/bamboo-b.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -2908,7 +2992,7 @@
                 "z": 5.4496932029724121
             },
             "id": "{686cda67-d073-47af-a1b2-abf30ba9a388}",
-            "lastEdited": 1493674604912001,
+            "lastEdited": 1498148846992379,
             "locked": 1,
             "modelURL": "atp:/alan/dev/bamboo-b.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -2949,7 +3033,7 @@
             "id": "{7d917e44-c1b8-4412-8d7b-104101d208c8}",
             "intensity": 7.9000000953674316,
             "isSpotlight": 1,
-            "lastEdited": 1493674604922658,
+            "lastEdited": 1498148846992509,
             "name": "Temp-Light",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -2980,7 +3064,7 @@
                 "z": 3.2667925357818604
             },
             "id": "{ea734a89-1173-45b9-96e8-a364c412ae87}",
-            "lastEdited": 1493674604922941,
+            "lastEdited": 1498148846992643,
             "locked": 1,
             "modelURL": "atp:/alan/dev/bamboo-b.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -3012,7 +3096,7 @@
                 "z": 27.376594543457031
             },
             "id": "{79dbbe67-2f7e-4581-94b9-4529921db22c}",
-            "lastEdited": 1493674604923223,
+            "lastEdited": 1498148846992761,
             "locked": 1,
             "modelURL": "atp:/alan/dev/Zen-Garden.fbx",
             "name": "zen_garden_walls",
@@ -3070,7 +3154,7 @@
             "emitRate": 84,
             "emitSpeed": 0.18000000715255737,
             "id": "{d06f8e9c-f8b3-4068-abef-977c9e4ff527}",
-            "lastEdited": 1493674604923748,
+            "lastEdited": 1498148846992914,
             "lastEditedBy": "{47109736-4298-4b34-919c-846814d85e17}",
             "lifespan": 0.49000000953674316,
             "maxParticles": 820,
@@ -3118,9 +3202,9 @@
                 "z": 11.288655281066895
             },
             "id": "{86f93a19-b12e-45d9-a3d9-e5bc4d6a44d1}",
-            "intensity": 402.40695190429688,
-            "lastEdited": 1493675215579202,
-            "lastEditedBy": "{63654088-0eb8-4bc4-8199-d64da78b572e}",
+            "intensity": 414.77090454101562,
+            "lastEdited": 1498151577532545,
+            "lastEditedBy": "{371908bf-c2d4-4075-ad47-fcbfac0922ff}",
             "name": "Torch Light",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "parentID": "{11691e99-f436-48a5-a214-34a4524f6722}",
@@ -3160,7 +3244,7 @@
                 "z": 0
             },
             "id": "{11691e99-f436-48a5-a214-34a4524f6722}",
-            "lastEdited": 1493674604929178,
+            "lastEdited": 1498148846993307,
             "lastEditedBy": "{13b86c24-8f84-44bf-8f3a-d34c0e0fc33c}",
             "modelURL": "atp:/alan/dev/Torch.fbx",
             "name": "Torch",
@@ -3195,7 +3279,7 @@
                 "z": 6.6031808853149414
             },
             "id": "{8c6335ab-061d-4384-a401-4765f16cf044}",
-            "lastEdited": 1493674604929348,
+            "lastEdited": 1498148846993446,
             "locked": 1,
             "modelURL": "atp:/alan/dev/Tree-Low-Poly-toon.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -3227,7 +3311,7 @@
                 "z": 4.7454733848571777
             },
             "id": "{18259cf7-7aee-4d6a-a296-a1a7d236809e}",
-            "lastEdited": 1493674604929479,
+            "lastEdited": 1498148846993599,
             "locked": 1,
             "modelURL": "atp:/alan/dev/Tree-Low-Poly-toon.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -3261,8 +3345,8 @@
             },
             "id": "{9c5b0fee-e695-4516-94cd-153371e3857b}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604929631,
-            "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
+            "lastEdited": 1498150634627308,
+            "lastEditedBy": "{371908bf-c2d4-4075-ad47-fcbfac0922ff}",
             "modelURL": "atp:/ryan/development/transparent_door.fbx",
             "name": "tutorial/door",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -3297,7 +3381,7 @@
                 "z": 0.0010000000474974513
             },
             "id": "{def0828f-6d52-408e-b627-19426c772f14}",
-            "lastEdited": 1493674604933359,
+            "lastEdited": 1498148846993848,
             "locked": 1,
             "modelURL": "atp:/alan/dev/Tree-Card-2.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -3329,7 +3413,7 @@
                 "z": 0.0010000000474974513
             },
             "id": "{5e0c0680-f0f2-4f96-8dc9-710144e7c146}",
-            "lastEdited": 1493674604933645,
+            "lastEdited": 1498148846993959,
             "locked": 1,
             "modelURL": "atp:/alan/dev/Tree-Card-1.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -3366,7 +3450,7 @@
                 "z": 11.227925300598145
             },
             "id": "{be3d10a3-262a-4827-b30c-ec025c4325dc}",
-            "lastEdited": 1493674604933875,
+            "lastEdited": 1498148846994079,
             "locked": 1,
             "name": "dark_room_ceiling",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -3404,7 +3488,7 @@
                 "z": 5.2404088973999023
             },
             "id": "{b0374431-3897-4a2a-888d-a6a9ae2f93c5}",
-            "lastEdited": 1493674604934100,
+            "lastEdited": 1498148846994196,
             "locked": 1,
             "name": "dark_room_back",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -3439,7 +3523,7 @@
             },
             "id": "{4d3590a5-e630-4f5f-9db0-6224a7333e5c}",
             "intensity": 100,
-            "lastEdited": 1493674604938929,
+            "lastEdited": 1498148846994319,
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
                 "x": -12.147740364074707,
@@ -3474,7 +3558,7 @@
                 "z": 5.8948612213134766
             },
             "id": "{e14a8321-fb2c-429f-a04e-4deedf869a16}",
-            "lastEdited": 1493674604939280,
+            "lastEdited": 1498148846994435,
             "locked": 1,
             "name": "dark_room_frontwall",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -3512,7 +3596,7 @@
                 "z": 5.2404088973999023
             },
             "id": "{c85a7b90-68c3-4345-9837-81b1fca44cdd}",
-            "lastEdited": 1493674604939527,
+            "lastEdited": 1498148846994562,
             "locked": 1,
             "name": "dark_room_rightwall",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -3550,7 +3634,7 @@
                 "z": 12.427444458007812
             },
             "id": "{04ce76e3-27ab-44ca-9ee7-226ae4b3be1f}",
-            "lastEdited": 1493674604939775,
+            "lastEdited": 1498148846994693,
             "locked": 1,
             "name": "dark_room_floor",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -3588,7 +3672,7 @@
                 "z": 4.9707741737365723
             },
             "id": "{5f35a11f-78b2-4a9f-88ae-b59dcd19c4d5}",
-            "lastEdited": 1493674604940013,
+            "lastEdited": 1498148846994810,
             "locked": 1,
             "name": "dark_room_leftwall",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -3621,7 +3705,7 @@
                 "z": 14.022899627685547
             },
             "id": "{f2282b96-6b75-46e9-9beb-28261d16fc6a}",
-            "lastEdited": 1493674604940240,
+            "lastEdited": 1498148846994926,
             "locked": 1,
             "modelURL": "atp:/alan/dev/Zen-Portal.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -3682,7 +3766,7 @@
             "emitRate": 180,
             "emitSpeed": 0.20000000298023224,
             "id": "{337a464a-f48f-4783-bd59-4edf2d15a5d2}",
-            "lastEdited": 1493674604944257,
+            "lastEdited": 1498148846995070,
             "lifespan": 0.69999998807907104,
             "locked": 1,
             "name": "particle_teleporter",
@@ -3727,7 +3811,7 @@
                 "z": 0
             },
             "id": "{9cf47bd4-81dc-4c19-827e-a2ee6aec1604}",
-            "lastEdited": 1493674604944508,
+            "lastEdited": 1498148846995194,
             "locked": 1,
             "modelURL": "atp:/alan/dev/bamboo-b.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -3759,7 +3843,7 @@
                 "z": 3.2667925357818604
             },
             "id": "{634cac1a-6862-48cf-ab80-66e1a4640935}",
-            "lastEdited": 1493674604944692,
+            "lastEdited": 1498148846995309,
             "locked": 1,
             "modelURL": "atp:/alan/dev/bamboo-b.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -3791,7 +3875,7 @@
                 "z": 4.3250598907470703
             },
             "id": "{6d5566e8-b223-4cfe-bf62-225c3df09247}",
-            "lastEdited": 1493674604950005,
+            "lastEdited": 1498148846995420,
             "locked": 1,
             "modelURL": "atp:/alan/dev/bamboo-b.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -3853,7 +3937,7 @@
             "emitSpeed": 0.37000000476837158,
             "id": "{6752dad6-109d-4dc5-aef7-dc8509468cf4}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604956479,
+            "lastEdited": 1498148846995580,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "lifespan": 2.2999999523162842,
             "maxParticles": 580,
@@ -3895,7 +3979,7 @@
                 "z": 3.7745425701141357
             },
             "id": "{aedbe5d2-81e6-4cee-ab30-62d9280d9f57}",
-            "lastEdited": 1493674604961484,
+            "lastEdited": 1498148846995708,
             "locked": 1,
             "modelURL": "atp:/alan/dev/BSwap_LPStones_01.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -3928,7 +4012,7 @@
                 "z": 2.4231038093566895
             },
             "id": "{3632e60f-5c1d-4430-8667-1524ef1331b4}",
-            "lastEdited": 1493674604961744,
+            "lastEdited": 1498148846995838,
             "locked": 1,
             "modelURL": "atp:/alan/dev/BSwap_LPStones_01.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -3961,7 +4045,7 @@
                 "z": 2.4231038093566895
             },
             "id": "{055f962b-b0c8-4209-92ba-96062e04ca2a}",
-            "lastEdited": 1493674604961972,
+            "lastEdited": 1498148846995967,
             "locked": 1,
             "modelURL": "atp:/alan/dev/BSwap_LPStones_01.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -3994,7 +4078,7 @@
                 "z": 3.6437880992889404
             },
             "id": "{e04c6528-a2e0-4c13-8a6a-1a760a192d31}",
-            "lastEdited": 1493674604966471,
+            "lastEdited": 1498148846996111,
             "locked": 1,
             "modelURL": "atp:/alan/dev/BSwap_LPStones_01.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -4027,7 +4111,7 @@
                 "z": 2.4500830173492432
             },
             "id": "{7af1df0d-4c12-469f-8dee-75581543f1a9}",
-            "lastEdited": 1493674604966703,
+            "lastEdited": 1498148846996225,
             "locked": 1,
             "modelURL": "atp:/alan/dev/BSwap_LPStones_01.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -4062,7 +4146,7 @@
             },
             "id": "{178e2c71-dff5-4231-8d28-df47fddf4709}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604966937,
+            "lastEdited": 1498148846996347,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/alan/dev/Firepit.fbx?",
             "name": "tutorial/firepit",
@@ -4100,7 +4184,7 @@
             },
             "id": "{fbc2e40d-0633-45ac-b1c9-97fc8465f93b}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604967180,
+            "lastEdited": 1498148846996495,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/DomainContent/Tutorial/Models/end_table_small.fbx",
             "name": "tutorial/firepit_base",
@@ -4144,7 +4228,7 @@
             },
             "id": "{14792a6e-dc6f-4e7a-843f-4b109b06b5a4}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604967422,
+            "lastEdited": 1498148846996632,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "name": "tutorial/firepit_collider",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -4183,7 +4267,7 @@
             },
             "id": "{fdd77d2c-af36-41c1-ba57-74b7ae79d996}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604967647,
+            "lastEdited": 1498148846996758,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/DomainContent/Tutorial/Models/end_table2_small.fbx",
             "name": "tutorial/FarGrab/endTable",
@@ -4221,7 +4305,7 @@
             },
             "id": "{1a77c20e-5d9b-4b54-bf20-1416141a7ca8}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604972321,
+            "lastEdited": 1498148846996870,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/DomainContent/Tutorial/Models/end_table2_small.fbx",
             "name": "tutorial/equip/table",
@@ -4259,7 +4343,7 @@
             },
             "id": "{8572d991-5777-45df-97bf-7243d7b12f81}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604972558,
+            "lastEdited": 1498148846996981,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/jimi/tutorialroom/tripod.fbx",
             "name": "tutorial/equip/tripod",
@@ -4298,7 +4382,7 @@
             },
             "id": "{dd13fcd5-616f-4749-ab28-2e1e8bc512e9}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604978238,
+            "lastEdited": 1498148846997115,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/jimi/tutorialroom/spinner4.fbx",
             "name": "tutorial/equip/spinner",
@@ -4336,7 +4420,7 @@
             },
             "id": "{644d655b-ae66-43b1-9bab-a44b9a8ad632}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604982706,
+            "lastEdited": 1498148846997250,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/DomainContent/Tutorial/Models/end_table2_small.fbx",
             "name": "tutorial/nearGrab/table",
@@ -4375,7 +4459,7 @@
             "falloffRadius": 3.2999999523162842,
             "id": "{20fedb36-743d-4f05-9c36-6b30ab14d870}",
             "intensity": 1.6000000238418579,
-            "lastEdited": 1493674604982939,
+            "lastEdited": 1498148846997360,
             "name": "Ambient Window Light",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -4416,7 +4500,7 @@
             "id": "{0fa93127-8f5b-4b83-8ee4-e715fe0d9574}",
             "intensity": 20,
             "isSpotlight": 1,
-            "lastEdited": 1493674604983171,
+            "lastEdited": 1498148846997471,
             "name": "tutorial/spotlight-door",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -4449,7 +4533,7 @@
             },
             "id": "{da5ea72e-54b6-41ac-b711-742b062b6968}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604983391,
+            "lastEdited": 1498148846997710,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/alan/dev/Fuseholder.fbx",
             "name": "Tutorial/equip/fuseholder",
@@ -4495,7 +4579,7 @@
             },
             "id": "{c8944a13-9acb-4d77-b1ee-851845e98357}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604983632,
+            "lastEdited": 1498148846997871,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/ozan/dev/anim/fuse/fuse.fbx",
             "name": "tutorial/equip/fuse",
@@ -4560,7 +4644,7 @@
             "emitSpeed": 0.37999999523162842,
             "emitterShouldTrail": 1,
             "id": "{806e6977-30cd-4d70-a5e9-6c5aa24f0a74}",
-            "lastEdited": 1493674604983906,
+            "lastEdited": 1498148846998017,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "lifespan": 1.8999999761581421,
             "maxParticles": 580,
@@ -4605,7 +4689,7 @@
                 "ambientIntensity": 0,
                 "intensity": 0
             },
-            "lastEdited": 1493674604984140,
+            "lastEdited": 1498148846998275,
             "name": "Entry-Zone",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -4637,7 +4721,7 @@
                 "z": 9.3204536437988281
             },
             "id": "{24702b50-a64c-4905-b4c6-1f6f8157fe8e}",
-            "lastEdited": 1493674604988793,
+            "lastEdited": 1498148846998705,
             "locked": 1,
             "modelURL": "atp:/alan/dev/Entry-Floor.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -4678,7 +4762,7 @@
             "falloffRadius": 10,
             "id": "{3a9934db-0dfe-4e4f-a0ea-9506fc4c6198}",
             "intensity": 5,
-            "lastEdited": 1493674604989044,
+            "lastEdited": 1498148846998838,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "name": "fuse_light",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -4715,7 +4799,7 @@
             },
             "id": "{95d233ab-ed0a-46e1-b047-1c542688ef3f}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604989267,
+            "lastEdited": 1498148846998964,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/alan/dev/Prompt-Cards/welcome.fbx",
             "name": "tutorial/welcome/text",
@@ -4757,7 +4841,7 @@
             },
             "id": "{9c4fae6a-114d-4d9b-98ef-bb79c5e939ea}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604989499,
+            "lastEdited": 1498148846999098,
             "locked": 1,
             "name": "teleporter",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -4792,7 +4876,7 @@
                 "z": 3.4321269989013672
             },
             "id": "{7c205e19-4a40-4343-a3eb-52a4e790c6a5}",
-            "lastEdited": 1493674604989706,
+            "lastEdited": 1498148846999206,
             "locked": 1,
             "modelURL": "atp:/alan/dev/tree-oak2-lowpoly.fbx",
             "name": "environment/tree",
@@ -4825,7 +4909,7 @@
                 "z": 4.8920764923095703
             },
             "id": "{f615f801-aebc-4b5a-b4d9-2801cfa33c20}",
-            "lastEdited": 1493674604994224,
+            "lastEdited": 1498148846999310,
             "locked": 1,
             "modelURL": "atp:/alan/dev/tree-oak2-lowpoly.fbx",
             "name": "environment/tree",
@@ -4861,7 +4945,7 @@
             "falloffRadius": 1.2000000476837158,
             "id": "{7e228f72-515a-4652-9792-7fa748c62bcb}",
             "intensity": 1.5,
-            "lastEdited": 1493674604994449,
+            "lastEdited": 1498148846999421,
             "name": "Ambient Window Light",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -4895,7 +4979,7 @@
             "falloffRadius": 3.2999999523162842,
             "id": "{bebe61dd-2857-474b-b273-49abee290ea0}",
             "intensity": 0.40000000596046448,
-            "lastEdited": 1493674604994659,
+            "lastEdited": 1498148846999527,
             "name": "Ambient Window Light",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -4930,7 +5014,7 @@
             "falloffRadius": 4.8000001907348633,
             "id": "{37b9d416-4d19-4a1a-9dce-6f138932c9e4}",
             "intensity": 1.7999999523162842,
-            "lastEdited": 1493674604994868,
+            "lastEdited": 1498148846999632,
             "name": "Ambient Window Light",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -4969,7 +5053,7 @@
             },
             "id": "{88baa2bc-464b-4d30-8cd4-0001bc587554}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604995089,
+            "lastEdited": 1498148846999760,
             "name": "tutorial/start_container",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "parentID": "{f482faa7-2918-4d83-8b68-e5ea60cc4af5}",
@@ -5011,7 +5095,7 @@
             },
             "id": "{f482faa7-2918-4d83-8b68-e5ea60cc4af5}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674604995296,
+            "lastEdited": 1498148846999883,
             "name": "tutorial/outer_container",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -5053,7 +5137,7 @@
             },
             "dynamic": 1,
             "id": "{29657f08-1e48-49bc-9d3a-3e5750b73eec}",
-            "lastEdited": 1493674604995465,
+            "lastEdited": 1498148847000011,
             "locked": 1,
             "modelURL": "atp:/jimi/tutorialroom/lantern5.fbx",
             "name": "decor/lantern",
@@ -5070,10 +5154,10 @@
                 "z": -6.8309698104858398
             },
             "rotation": {
-                "w": -0.080927766859531403,
-                "x": 1.796286778699141e-05,
-                "y": -0.99672001600265503,
-                "z": -1.5265846741385758e-05
+                "w": -0.9828295111656189,
+                "x": 1.945983967743814e-05,
+                "y": -0.18451622128486633,
+                "z": 1.3307045264809858e-05
             },
             "type": "Model"
         },
@@ -5094,7 +5178,7 @@
             },
             "dynamic": 1,
             "id": "{df40c12e-7cd0-465a-8a03-ab8e9b5db99a}",
-            "lastEdited": 1493674604998693,
+            "lastEdited": 1498148847000129,
             "locked": 1,
             "modelURL": "atp:/jimi/tutorialroom/lantern5.fbx",
             "name": "decor/lantern",
@@ -5111,10 +5195,10 @@
                 "z": -2.2710745334625244
             },
             "rotation": {
-                "w": 0.87966102361679077,
-                "x": 0.0037990149576216936,
-                "y": -0.47558155655860901,
-                "z": 0.0020505278371274471
+                "w": 0.84147828817367554,
+                "x": 0.0036093275994062424,
+                "y": 0.54027384519577026,
+                "z": -0.0023209280334413052
             },
             "type": "Model"
         },
@@ -5135,7 +5219,7 @@
             },
             "dynamic": 1,
             "id": "{4e0c4869-2266-4253-9a0d-f9436297ba2b}",
-            "lastEdited": 1493674604998848,
+            "lastEdited": 1498148847000237,
             "locked": 1,
             "modelURL": "atp:/jimi/tutorialroom/lantern5.fbx",
             "name": "decor/lantern",
@@ -5152,10 +5236,10 @@
                 "z": -2.2084906101226807
             },
             "rotation": {
-                "w": -0.95323413610458374,
-                "x": 4.6974146243883297e-05,
-                "y": -0.3022327721118927,
-                "z": 1.1727733181032818e-05
+                "w": 0.667289137840271,
+                "x": -4.6413962991209701e-05,
+                "y": 0.74479877948760986,
+                "z": 1.3777930689684581e-05
             },
             "type": "Model"
         },
@@ -5175,7 +5259,7 @@
                 "z": 9.2357387542724609
             },
             "id": "{ddfd349e-8c39-47a0-b196-f8727c845783}",
-            "lastEdited": 1493674604998986,
+            "lastEdited": 1498148847000353,
             "locked": 1,
             "name": "tutorial_room_floor",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -5218,7 +5302,7 @@
                 },
                 "intensity": 1.1000000238418579
             },
-            "lastEdited": 1493674604999127,
+            "lastEdited": 1498148847000675,
             "name": "Building_platform_zone",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -5255,7 +5339,7 @@
             },
             "friction": 0.30000001192092896,
             "id": "{ef893599-9be1-4c97-ae51-b1bb3277daaa}",
-            "lastEdited": 1493675210524187,
+            "lastEdited": 1498148847001271,
             "lastEditedBy": "{63654088-0eb8-4bc4-8199-d64da78b572e}",
             "locked": 1,
             "modelURL": "atp:/1592e15e-c822-41aa-b314-4ef261e5d843-v1/builder-grid.fbx",
@@ -5297,9 +5381,9 @@
                 "z": 0.44252091646194458
             },
             "id": "{c39a11b3-89ef-4ff8-81fa-f8f1311b0ef2}",
-            "intensity": 302.71661376953125,
-            "lastEdited": 1493675215129316,
-            "lastEditedBy": "{63654088-0eb8-4bc4-8199-d64da78b572e}",
+            "intensity": 378.98623657226562,
+            "lastEdited": 1498151576682694,
+            "lastEditedBy": "{371908bf-c2d4-4075-ad47-fcbfac0922ff}",
             "name": "tea_light_light",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "parentID": "{8ad03218-4362-4f52-a8ad-45f3a87864e2}",
@@ -5339,7 +5423,7 @@
                 "z": 0
             },
             "id": "{14600905-35ff-47f2-9dde-f4d36ccad20a}",
-            "lastEdited": 1493674605014124,
+            "lastEdited": 1498148847001813,
             "lastEditedBy": "{8fd7b99e-6ad4-4765-91db-6755e7a69e6a}",
             "modelURL": "atp:/DomainContent/Tutorial/Models/tea_light.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -5372,7 +5456,7 @@
                 "z": 0.17594966292381287
             },
             "id": "{0d28d75d-959f-4901-9982-1bdad64b577c}",
-            "lastEdited": 1493674605014291,
+            "lastEdited": 1498148847001970,
             "locked": 1,
             "modelURL": "atp:/alan/dev/Drape.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -5405,7 +5489,7 @@
                 "z": 0.1277083158493042
             },
             "id": "{c6fecb87-f741-43c3-ad4c-e9f7d296d619}",
-            "lastEdited": 1493674605014419,
+            "lastEdited": 1498148847002083,
             "locked": 1,
             "modelURL": "atp:/alan/dev/Drape.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -5450,7 +5534,7 @@
             "ignoreForCollisions": 1,
             "intensity": 20,
             "isSpotlight": 1,
-            "lastEdited": 1493674605019719,
+            "lastEdited": 1498148847002210,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "name": "tutorial/FarGrab/Spotlight",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -5484,7 +5568,7 @@
                 "z": 2.4231038093566895
             },
             "id": "{b4bd0664-6012-40a5-8c29-6417681e388b}",
-            "lastEdited": 1493674605019972,
+            "lastEdited": 1498148847002334,
             "locked": 1,
             "modelURL": "atp:/alan/dev/BSwap_LPStones_01.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -5517,7 +5601,7 @@
                 "z": 4.8583950996398926
             },
             "id": "{7eb4b0b4-27c5-40dc-96a8-250e6a654b32}",
-            "lastEdited": 1493674605020202,
+            "lastEdited": 1498148847002468,
             "locked": 1,
             "modelURL": "atp:/jimi/tutorialroom/hewntable2.fbx",
             "name": "decor/table",
@@ -5553,7 +5637,7 @@
             },
             "id": "{55c861ef-60ca-4722-a6c5-9c6967966ec5}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605020448,
+            "lastEdited": 1498148847002616,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/jimi/tutorialroom/box.fbx",
             "name": "tutorial_firework_box",
@@ -5589,7 +5673,7 @@
                 "z": 0.0010000000474974513
             },
             "id": "{57a9060a-dedf-4c2e-a982-39cbd8444b8c}",
-            "lastEdited": 1493674605024449,
+            "lastEdited": 1498148847002754,
             "locked": 1,
             "name": "portal back",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -5632,7 +5716,7 @@
                 "z": 0
             },
             "id": "{61431207-0825-4479-a75f-3c0e64e9864e}",
-            "lastEdited": 1493674605024654,
+            "lastEdited": 1498148847002889,
             "lastEditedBy": "{a11c2d4d-9a1e-436f-9354-4ecf7e9536c6}",
             "modelURL": "atp:/alan/dev/Crate3.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -5676,7 +5760,7 @@
                 "z": 0
             },
             "id": "{03f33b7e-0eef-4439-a9f7-49c146be7dfe}",
-            "lastEdited": 1493674605030300,
+            "lastEdited": 1498148847003020,
             "lastEditedBy": "{a11c2d4d-9a1e-436f-9354-4ecf7e9536c6}",
             "modelURL": "atp:/alan/dev/Crate3.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -5710,7 +5794,7 @@
                 "z": 2.67753005027771
             },
             "id": "{5b5ce050-d8f3-4cf5-8442-a1c0fe3095a7}",
-            "lastEdited": 1493674605030457,
+            "lastEdited": 1498148847003271,
             "locked": 1,
             "modelURL": "atp:/jimi/tutorialroom/sand8.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -5749,9 +5833,9 @@
                 "z": 0.44252091646194458
             },
             "id": "{b34d33ba-727a-487e-8933-57cfd50947df}",
-            "intensity": 414.484619140625,
-            "lastEdited": 1493675215129661,
-            "lastEditedBy": "{63654088-0eb8-4bc4-8199-d64da78b572e}",
+            "intensity": 418.45028686523438,
+            "lastEdited": 1498151577249484,
+            "lastEditedBy": "{371908bf-c2d4-4075-ad47-fcbfac0922ff}",
             "name": "tea_light_light",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "parentID": "{14600905-35ff-47f2-9dde-f4d36ccad20a}",
@@ -5790,9 +5874,9 @@
                 "z": 0.44252091646194458
             },
             "id": "{4e958a4e-6acf-41c5-b70f-45f807b26a33}",
-            "intensity": 299.56692504882812,
-            "lastEdited": 1493675215462982,
-            "lastEditedBy": "{63654088-0eb8-4bc4-8199-d64da78b572e}",
+            "intensity": 402.33993530273438,
+            "lastEdited": 1498151577132616,
+            "lastEditedBy": "{371908bf-c2d4-4075-ad47-fcbfac0922ff}",
             "name": "tea_light_light",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "parentID": "{6bba46c3-4743-4f47-ac44-e1e39a3f5505}",
@@ -5833,7 +5917,7 @@
                 "z": 0
             },
             "id": "{6bba46c3-4743-4f47-ac44-e1e39a3f5505}",
-            "lastEdited": 1493674605035870,
+            "lastEdited": 1498148847003875,
             "lastEditedBy": "{70cd072e-84ad-4c9b-85a7-3f064ace609c}",
             "modelURL": "atp:/DomainContent/Tutorial/Models/tea_light.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -5867,7 +5951,7 @@
                 "z": 2.7961473847426532e-07
             },
             "id": "{ce291ac7-6063-4929-8693-b4a488f9c7a8}",
-            "lastEdited": 1493674605036137,
+            "lastEdited": 1498148847004026,
             "modelURL": "atp:/alan/dev/Screen-Cards-Step1.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -5898,7 +5982,7 @@
                 "z": 0.0010000000474974513
             },
             "id": "{1a256cf4-8162-4270-8686-a379293709b4}",
-            "lastEdited": 1493674605036354,
+            "lastEdited": 1498148847004135,
             "modelURL": "atp:/alan/dev/Screen-Cards-Step2.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -5929,7 +6013,7 @@
                 "z": 0.89149999618530273
             },
             "id": "{8137120b-aa97-494d-9dcf-c4ed877b653f}",
-            "lastEdited": 1493674605036560,
+            "lastEdited": 1498148847004241,
             "modelURL": "atp:/jimi/tutorialroom/chair3.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -5961,7 +6045,7 @@
                 "z": 0.73637229204177856
             },
             "id": "{95fa153e-4c54-4def-af41-993a639674a4}",
-            "lastEdited": 1493674605036788,
+            "lastEdited": 1498148847004386,
             "modelURL": "atp:/jimi/tutorialroom/table3.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -5993,7 +6077,7 @@
                 "z": 0.89145439863204956
             },
             "id": "{762062e4-5884-458a-a04c-9c3df5187c32}",
-            "lastEdited": 1493674605037018,
+            "lastEdited": 1498148847004492,
             "modelURL": "atp:/jimi/tutorialroom/chair3.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -6033,7 +6117,7 @@
                 "z": 0
             },
             "id": "{18716461-1627-42df-a5d5-89aef87f39cf}",
-            "lastEdited": 1493674605039732,
+            "lastEdited": 1498148847004650,
             "modelURL": "atp:/jimi/tutorialroom/smll_pot2.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -6073,7 +6157,7 @@
                 "z": 0
             },
             "id": "{be019948-d3e0-434b-8778-4829182fa55e}",
-            "lastEdited": 1493674605039908,
+            "lastEdited": 1498148847004790,
             "modelURL": "atp:/alan/dev/Book-RPO-EC.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -6113,7 +6197,7 @@
                 "z": 0
             },
             "id": "{2750ecea-92f9-45c4-bdeb-e4e108b6acd6}",
-            "lastEdited": 1493674605040043,
+            "lastEdited": 1498148847004902,
             "modelURL": "atp:/alan/dev/Book-F1-IA.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -6145,7 +6229,7 @@
                 "z": 2.1642863750457764
             },
             "id": "{737a93b3-e51e-4295-9c73-ccaae3386060}",
-            "lastEdited": 1493674605049169,
+            "lastEdited": 1498148847005014,
             "modelURL": "atp:/jimi/tutorialroom/painting.fbx",
             "name": "decor/painting",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -6180,7 +6264,7 @@
             },
             "id": "{b241d3dc-6703-485a-b571-bacdfe756074}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605049393,
+            "lastEdited": 1498148847005128,
             "modelURL": "atp:/jimi/the_martian.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -6219,7 +6303,7 @@
                 "z": 0
             },
             "id": "{08e7fe43-d91a-4347-9848-0226bb32697c}",
-            "lastEdited": 1493674605049546,
+            "lastEdited": 1498148847005303,
             "modelURL": "atp:/alan/dev/Book-DADOES-PD.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -6259,7 +6343,7 @@
             "exponent": 30,
             "falloffRadius": 20,
             "id": "{6664ae7f-3efd-4663-bcac-20e78cf14c8d}",
-            "lastEdited": 1493674605049683,
+            "lastEdited": 1498148847005418,
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
                 "x": 9.1010398864746094,
@@ -6289,7 +6373,7 @@
                 "z": 0.28634360432624817
             },
             "id": "{a658fd8e-5efc-40cf-9bf8-cc66c4aefccf}",
-            "lastEdited": 1493674605049838,
+            "lastEdited": 1498148847005525,
             "modelURL": "atp:/jimi/tutorialroom/branch2.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -6328,7 +6412,7 @@
                 "z": 0
             },
             "id": "{a326e829-57cc-4352-ba98-7f504d25208c}",
-            "lastEdited": 1493674605055851,
+            "lastEdited": 1498148847018239,
             "modelURL": "atp:/jimi/tutorialroom/jugBig.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -6368,7 +6452,7 @@
                 "z": 0
             },
             "id": "{d06b3039-734c-4786-bd83-d602cfc47848}",
-            "lastEdited": 1493674605056107,
+            "lastEdited": 1498148847018381,
             "lastEditedBy": "{70cd072e-84ad-4c9b-85a7-3f064ace609c}",
             "modelURL": "atp:/jimi/tutorialroom/jugBig.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -6409,7 +6493,7 @@
                 "z": 0
             },
             "id": "{b10174cd-399a-47e1-8ea5-036f67297190}",
-            "lastEdited": 1493674605056341,
+            "lastEdited": 1498148847018507,
             "lastEditedBy": "{70cd072e-84ad-4c9b-85a7-3f064ace609c}",
             "modelURL": "atp:/jimi/tutorialroom/bottle2.fbx",
             "name": "decor/bottle",
@@ -6445,7 +6529,7 @@
             },
             "id": "{ca4a8c61-42ce-4789-a071-a8a824954607}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605056564,
+            "lastEdited": 1498148847018661,
             "lastEditedBy": "{64cda5e3-af94-49e8-bc16-da86c6173d53}",
             "modelURL": "atp:/alan/dev/Prompt-Cards/raiseHands.fbx",
             "name": "tutorial/raiseHands",
@@ -6482,7 +6566,7 @@
             },
             "id": "{7139e45d-25cf-470b-b133-c0fda0099d2b}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605061428,
+            "lastEdited": 1498148847018777,
             "modelURL": "atp:/alan/dev/Prompt-Cards/equip-part2.fbx",
             "name": "tutorial/preload/text",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -6516,7 +6600,7 @@
             },
             "id": "{606f77d7-1ef8-4bd1-ab51-5540b62f7578}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605066431,
+            "lastEdited": 1498148847018886,
             "lastEditedBy": "{1a18ff5d-9503-4f17-a419-e6ad375350cf}",
             "modelURL": "atp:/alan/dev/Prompt-Cards/welcome-oculus.fbx",
             "name": "tutorial/preload/text",
@@ -6551,7 +6635,7 @@
             },
             "id": "{1a3f43ae-c9e5-4847-81b3-295e7524bad0}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605066629,
+            "lastEdited": 1498148847018996,
             "modelURL": "atp:/alan/dev/Prompt-Cards/teleport.fbx",
             "name": "tutorial/preload/text",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -6585,7 +6669,7 @@
             },
             "id": "{58498a15-1515-4ab3-b20a-b866670e3d4f}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605066774,
+            "lastEdited": 1498148847021779,
             "modelURL": "atp:/alan/dev/Prompt-Cards/nearGrab.fbx",
             "name": "tutorial/preload/text",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -6619,7 +6703,7 @@
             },
             "id": "{9c55903e-6bcf-4154-bd3e-d3190567e895}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605070635,
+            "lastEdited": 1498148847021906,
             "modelURL": "atp:/alan/dev/Prompt-Cards/finish.fbx",
             "name": "tutorial/preload/text",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -6653,7 +6737,7 @@
             },
             "id": "{62f9ede9-3922-4a18-9817-574a0caff52d}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605070863,
+            "lastEdited": 1498148847022014,
             "modelURL": "atp:/alan/dev/Prompt-Cards/farGrab.fbx",
             "name": "tutorial/preload/text",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -6687,7 +6771,7 @@
             },
             "id": "{73f563e9-b794-4478-bf36-03c351b05c1d}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605074603,
+            "lastEdited": 1498148847022137,
             "modelURL": "atp:/alan/dev/Prompt-Cards/equip.fbx",
             "name": "tutorial/preload/text",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -6712,7 +6796,7 @@
         },
         {
             "animation": {
-                "currentFrame": 1841.991943359375,
+                "currentFrame": 3757.8369140625,
                 "lastFrame": 10000,
                 "running": 1,
                 "url": "atp:/jimi/tutorialroom/handcontroller_Unequip_New3.fbx"
@@ -6727,7 +6811,7 @@
             },
             "id": "{b5d17eda-90ab-40cf-b973-efcecb2e992e}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605078588,
+            "lastEdited": 1498148847022263,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/jimi/tutorialroom/handcontroller_Unequip_New3.fbx",
             "name": "tutorial/equip/visual",
@@ -6755,7 +6839,7 @@
         },
         {
             "animation": {
-                "currentFrame": 6336.345703125,
+                "currentFrame": 8252.17578125,
                 "lastFrame": 10000,
                 "running": 1,
                 "url": "atp:/jimi/tutorialroom/handcontroller_Unequip_New3.fbx"
@@ -6770,7 +6854,7 @@
             },
             "id": "{8b92eec5-aeed-4368-bce0-432cc9ad4c51}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605078832,
+            "lastEdited": 1498148847022379,
             "lastEditedBy": "{31c4c56e-e1c5-4f09-a01e-c13c2fb40d1a}",
             "modelURL": "atp:/jimi/tutorialroom/handcontroller_Unequip_New3.fbx",
             "name": "tutorial/preload/equip/visual",
@@ -6805,7 +6889,7 @@
             },
             "id": "{b6d545e6-1a02-4e13-8943-aa094b2c4db1}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605079051,
+            "lastEdited": 1498148847022496,
             "lastEditedBy": "{a5815baa-efbc-4f3a-81e5-a5187b251dda}",
             "modelURL": "atp:/alan/dev/Prompt-Cards/turnAround.fbx",
             "name": "tutorial/preload/text",
@@ -6840,7 +6924,7 @@
             },
             "id": "{7f2a2251-f14d-4332-8a6f-691313a10f96}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605083083,
+            "lastEdited": 1498148847022605,
             "lastEditedBy": "{6e925470-ad2b-4814-8038-1ab8dac63ade}",
             "modelURL": "atp:/alan/dev/Teleport-Pad.fbx",
             "name": "tutorial/preload/teleport_pad",
@@ -6875,7 +6959,7 @@
             },
             "id": "{093817a6-4945-400d-a78a-4b9aaee4a00d}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605083306,
+            "lastEdited": 1498148847022725,
             "modelURL": "atp:/tutorial_models/bomb5.fbx",
             "name": "tutorial/preload/bomb",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -6909,7 +6993,7 @@
             },
             "id": "{def44449-74c3-4402-8087-155e3c607186}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605083517,
+            "lastEdited": 1498148847022831,
             "modelURL": "atp:/tutorial_models/bomb4.fbx",
             "name": "tutorial/preload/bomb",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -6943,7 +7027,7 @@
             },
             "id": "{9b827359-97c6-4451-ac3d-702fb6f7245b}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605083718,
+            "lastEdited": 1498148847022941,
             "modelURL": "atp:/tutorial_models/bomb3.fbx",
             "name": "tutorial/preload/bomb",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -6977,7 +7061,7 @@
             },
             "id": "{8008ca70-de96-481f-9562-34f5b0e2b476}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605083922,
+            "lastEdited": 1498148847023046,
             "modelURL": "atp:/tutorial_models/bomb2.fbx",
             "name": "tutorial/preload/bomb",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -7011,7 +7095,7 @@
             },
             "id": "{87e74e52-2a5c-4732-ba6f-afc8eb73c207}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605084124,
+            "lastEdited": 1498148847023171,
             "modelURL": "atp:/tutorial_models/bomb1.fbx",
             "name": "tutorial/preload/bomb",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -7045,7 +7129,7 @@
             },
             "id": "{5c0d07e2-0460-4cbe-9584-e3409e79fb6c}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605084331,
+            "lastEdited": 1498148847023278,
             "modelURL": "atp:/tutorial_models/lighterIceCreamSandwich.fbx",
             "name": "tutorial/preload/lighter",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -7079,7 +7163,7 @@
             },
             "id": "{8a6622eb-917b-436d-a974-f30e35082029}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605084540,
+            "lastEdited": 1498148847023408,
             "modelURL": "atp:/tutorial_models/bomb6.fbx",
             "name": "tutorial/preload/bomb",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -7111,7 +7195,7 @@
                 "z": 0.67587554454803467
             },
             "id": "{3651aee4-3905-4e05-a8e7-d89e9c9ae718}",
-            "lastEdited": 1493674605084753,
+            "lastEdited": 1498148847023541,
             "modelURL": "atp:/ryan/development/transparent_door.fbx",
             "name": "tutorial/blocker_right",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -7144,7 +7228,7 @@
                 "z": 0.67587554454803467
             },
             "id": "{854827c8-2582-4122-bcbf-d7b0f423d188}",
-            "lastEdited": 1493674605084963,
+            "lastEdited": 1498148847023727,
             "modelURL": "atp:/ryan/development/transparent_door.fbx",
             "name": "tutorial/blocker_left",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -7184,7 +7268,7 @@
                 "z": 0
             },
             "id": "{8ad03218-4362-4f52-a8ad-45f3a87864e2}",
-            "lastEdited": 1493674605088978,
+            "lastEdited": 1498148847023853,
             "modelURL": "atp:/DomainContent/Tutorial/Models/tea_light.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "position": {
@@ -7216,7 +7300,7 @@
                 "z": 0.11039984226226807
             },
             "id": "{a279328f-f46f-41db-a1a7-70b4d07cd363}",
-            "lastEdited": 1493674605089206,
+            "lastEdited": 1498148847023980,
             "lastEditedBy": "{c2789dc5-31b9-4ce1-a121-bb2997a34dda}",
             "modelURL": "atp:/welcomeSign.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -7257,7 +7341,7 @@
             "falloffRadius": 1,
             "id": "{f3ff6dbc-ec71-4ecc-9dff-708cbb591ada}",
             "intensity": 5,
-            "lastEdited": 1493674605092651,
+            "lastEdited": 1498148847024111,
             "name": "Portal-Light",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "parentID": "{e059fb81-07e4-495f-9af4-1e5e01fcb6a8}",
@@ -7304,7 +7388,7 @@
                 "z": 0
             },
             "id": "{e059fb81-07e4-495f-9af4-1e5e01fcb6a8}",
-            "lastEdited": 1493674605098231,
+            "lastEdited": 1498148847024242,
             "lastEditedBy": "{01287c59-04ae-4886-a51d-c00ed68fb642}",
             "locked": 1,
             "modelURL": "atp:/alan/dev/EZ-Portal.fbx",
@@ -7348,7 +7432,7 @@
             "falloffRadius": 3.4000000953674316,
             "id": "{40c1be00-9882-4d51-8623-861e206fcc19}",
             "intensity": 7.3000001907348633,
-            "lastEdited": 1493674605098420,
+            "lastEdited": 1498148847024385,
             "name": "Welcome/Light/Portal-Sign-Featured",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "parentID": "{e059fb81-07e4-495f-9af4-1e5e01fcb6a8}",
@@ -7380,7 +7464,7 @@
                 "z": 0.68058872222900391
             },
             "id": "{aae1aaf9-6187-4428-a2c7-9232c621c7b4}",
-            "lastEdited": 1493674605103988,
+            "lastEdited": 1498148847024503,
             "lastEditedBy": "{f5572ade-03bb-4b22-9693-3a059eb236bf}",
             "locked": 1,
             "modelURL": "atp:/alan/dev/Portal-Sign-Return2.fbx",
@@ -7431,7 +7515,7 @@
                 "z": 0
             },
             "id": "{9a72bbe7-69cd-465b-a879-e2a31c74638d}",
-            "lastEdited": 1493674605110579,
+            "lastEdited": 1498148847024653,
             "lastEditedBy": "{f5572ade-03bb-4b22-9693-3a059eb236bf}",
             "locked": 1,
             "modelURL": "atp:/alan/dev/EZ-Portal.fbx",
@@ -7475,7 +7559,7 @@
             "falloffRadius": 1,
             "id": "{bf511ff4-244d-420e-b064-93e6f1a5de97}",
             "intensity": 5,
-            "lastEdited": 1493674605110845,
+            "lastEdited": 1498148847024781,
             "name": "Portal-Light",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "parentID": "{9a72bbe7-69cd-465b-a879-e2a31c74638d}",
@@ -7515,7 +7599,7 @@
             "falloffRadius": 3.4000000953674316,
             "id": "{e6a97d1d-4edd-4f3e-9418-700b36fd43f2}",
             "intensity": 7.3000001907348633,
-            "lastEdited": 1493674605111000,
+            "lastEdited": 1498148847024896,
             "name": "Welcome/Light/Portal-Sign-Featured",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "parentID": "{9a72bbe7-69cd-465b-a879-e2a31c74638d}",
@@ -7556,7 +7640,7 @@
             },
             "id": "{9fcb668f-6748-46e6-b696-808183f98169}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605117168,
+            "lastEdited": 1498148847025044,
             "lastEditedBy": "{13b86c24-8f84-44bf-8f3a-d34c0e0fc33c}",
             "locked": 1,
             "name": "EZPortal-Return-Garden",
@@ -7594,7 +7678,7 @@
                 "z": 0.68058842420578003
             },
             "id": "{8c53e3ea-35b4-41a3-970a-f609d4a3d21c}",
-            "lastEdited": 1493674605117410,
+            "lastEdited": 1498148847025167,
             "lastEditedBy": "{f5572ade-03bb-4b22-9693-3a059eb236bf}",
             "locked": 1,
             "modelURL": "atp:/alan/dev/Portal-Sign-Return.fbx",
@@ -7630,7 +7714,7 @@
                 "z": 0.76046973466873169
             },
             "id": "{a981f081-fee1-4edd-b769-2356a8f18748}",
-            "lastEdited": 1493674605117559,
+            "lastEdited": 1498148847025298,
             "lastEditedBy": "{032f670d-8eb7-4891-a17c-4c8460fd690c}",
             "modelURL": "atp:/alan/dev/Sandbox-Intro-2.fbx",
             "name": "Sandbox Intro Sign",
@@ -7671,7 +7755,7 @@
             },
             "id": "{c2b7a0f8-745d-4cc1-92d2-558424a6dc9f}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605117691,
+            "lastEdited": 1498148847025411,
             "lastEditedBy": "{a2f6e2fb-44ee-4ba8-aaea-d80b55f58a46}",
             "name": "tutorial/equip_part2_vive",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -7708,7 +7792,7 @@
             },
             "id": "{7df1abc4-1b7c-4352-985c-f3f6ad8d65b7}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605117824,
+            "lastEdited": 1498148847025513,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/alan/dev/Prompt-Cards/teleport.fbx",
             "name": "tutorial/teleport",
@@ -7745,7 +7829,7 @@
             },
             "id": "{0c9caa52-cc22-4d17-bbcc-e8033d1efeb9}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605118023,
+            "lastEdited": 1498148847025620,
             "lastEditedBy": "{a5815baa-efbc-4f3a-81e5-a5187b251dda}",
             "modelURL": "atp:/alan/dev/Prompt-Cards/teleport-oculus.fbx",
             "name": "tutorial/preload/text",
@@ -7780,7 +7864,7 @@
             },
             "id": "{9b14f224-b2f6-447f-bb86-f5d875cf4c33}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605118226,
+            "lastEdited": 1498148847025736,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/alan/dev/Prompt-Cards/turnAround.fbx",
             "name": "tutorial/turnAround",
@@ -7817,7 +7901,7 @@
             },
             "id": "{ff064b9e-7fa4-4693-a386-a67b9f92a948}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605118429,
+            "lastEdited": 1498148847025862,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/alan/dev/Prompt-Cards/teleport-oculus.fbx",
             "name": "tutorial/teleport",
@@ -7854,7 +7938,7 @@
             },
             "id": "{1c95f945-ec46-4aac-b0f1-e64e073dbfaa}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605118629,
+            "lastEdited": 1498148847025962,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/alan/dev/Prompt-Cards/welcome-oculus.fbx",
             "name": "tutorial/welcome/text",
@@ -7891,7 +7975,7 @@
             },
             "id": "{2569ed1d-09bd-4018-9414-f831afbeb458}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605118828,
+            "lastEdited": 1498148847026062,
             "lastEditedBy": "{6e49086a-5024-470d-bf2f-e528a0ba0d19}",
             "modelURL": "atp:/alan/dev/Prompt-Cards/welcome.fbx",
             "name": "tutorial/preload/text",
@@ -7917,7 +8001,7 @@
         },
         {
             "animation": {
-                "currentFrame": 8433.501953125,
+                "currentFrame": 90346.7265625,
                 "running": 1,
                 "url": "atp:/jimi/tutorialroom/touch_Unequip.fbx"
             },
@@ -7931,7 +8015,7 @@
             },
             "id": "{69195139-e020-4739-bb2c-50faebc6860a}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605122491,
+            "lastEdited": 1498148847026197,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/jimi/tutorialroom/touch_Unequip.fbx",
             "name": "tutorial/equip/touch",
@@ -7959,7 +8043,7 @@
         },
         {
             "animation": {
-                "currentFrame": 8339.87109375,
+                "currentFrame": 90253.0546875,
                 "running": 1,
                 "url": "atp:/jimi/tutorialroom/touch_Unequip.fbx"
             },
@@ -7973,7 +8057,7 @@
             },
             "id": "{fa1b03f3-97e7-4f58-b55c-1012f68b0302}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605122680,
+            "lastEdited": 1498148847026309,
             "lastEditedBy": "{a2f6e2fb-44ee-4ba8-aaea-d80b55f58a46}",
             "modelURL": "atp:/jimi/tutorialroom/touch_Unequip.fbx",
             "name": "tutorial/equip/touch",
@@ -8014,7 +8098,7 @@
             },
             "id": "{e7897c9c-f4fa-4989-a383-28af56c2e544}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605128457,
+            "lastEdited": 1498148847026418,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "name": "tutorial/equip/fuse_collider",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -8052,7 +8136,7 @@
             },
             "id": "{ca3c28f3-15fc-4349-a85e-eaca0fad6434}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605128626,
+            "lastEdited": 1498148847026526,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/jimi/tutorialroom/fuseLabel.fbx",
             "name": "tutorial/equip/fuse_label",
@@ -8124,7 +8208,7 @@
             "emitRate": 0,
             "emitSpeed": 0.20000000298023224,
             "id": "{8c330ae4-268d-4e22-b7e2-d29ba772c056}",
-            "lastEdited": 1493674605128829,
+            "lastEdited": 1498148847026670,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "lifespan": 0.05000000074505806,
             "maxParticles": 1010,
@@ -8166,7 +8250,7 @@
             },
             "id": "{7c0f2fde-6c5c-459b-bf82-421979cebf2e}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605128967,
+            "lastEdited": 1498148847026785,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/alan/dev/Prompt-Cards/nearGrab-oculus.fbx",
             "name": "tutorial/nearGrab-touch",
@@ -8201,7 +8285,7 @@
                 "z": 0.0010000000474974513
             },
             "id": "{70d5a92d-79df-453d-ad85-265835d60b4d}",
-            "lastEdited": 1493674605129194,
+            "lastEdited": 1498148847026888,
             "lastEditedBy": "{719fe639-7229-4f4e-a594-3b303e3068b5}",
             "modelURL": "atp:/alan/dev/Prompt-Cards/nearGrab-oculus.fbx",
             "name": "tutorial/nearGrab-touch",
@@ -8237,7 +8321,7 @@
             },
             "id": "{9b0a99ae-221b-4e59-ba3c-d8e64a083774}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605129408,
+            "lastEdited": 1498148847026988,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/alan/dev/Prompt-Cards/equip-part2-oculus.fbx",
             "name": "tutorial/equip_part2-touch",
@@ -8274,7 +8358,7 @@
             },
             "id": "{470f0634-8be7-4b52-a8bd-5183d489fcb6}",
             "ignoreForCollisions": 1,
-            "lastEdited": 1493674605129548,
+            "lastEdited": 1498148847027086,
             "lastEditedBy": "{c0764602-2a8e-4a5a-94a7-31ac23ac9258}",
             "modelURL": "atp:/alan/dev/Prompt-Cards/equip-oculus.fbx",
             "name": "tutorial/equip-touch",
@@ -8319,7 +8403,7 @@
                 "z": 0
             },
             "id": "{6a4296a0-1fad-497b-89c4-c42f7e316400}",
-            "lastEdited": 1493674605129679,
+            "lastEdited": 1498148847027195,
             "lastEditedBy": "{a11c2d4d-9a1e-436f-9354-4ecf7e9536c6}",
             "modelURL": "atp:/alan/dev/Crate3.fbx",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
@@ -8359,9 +8443,9 @@
                 "z": 0.44252091646194458
             },
             "id": "{cc6ff9f6-2a37-4d2c-92b4-3dc1384bf93e}",
-            "intensity": 299.497802734375,
-            "lastEdited": 1493675215546659,
-            "lastEditedBy": "{63654088-0eb8-4bc4-8199-d64da78b572e}",
+            "intensity": 333.91909790039062,
+            "lastEdited": 1498151576965643,
+            "lastEditedBy": "{371908bf-c2d4-4075-ad47-fcbfac0922ff}",
             "name": "tea_light_light",
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "parentID": "{05437c7f-8608-4aec-b364-64d97b08426e}",
@@ -8401,7 +8485,7 @@
                 "z": 0
             },
             "id": "{05437c7f-8608-4aec-b364-64d97b08426e}",
-            "lastEdited": 1493674605129957,
+            "lastEdited": 1498148847027412,
             "lastEditedBy": "{887dbfeb-7cd8-4f78-88f1-316f99468023}",
             "modelURL": "atp:/DomainContent/Tutorial/Models/tea_light.fbx",
             "name": "decor/tealight",
@@ -8428,18 +8512,60 @@
             "userData": "{}"
         },
         {
-            "age": 145.95782470703125,
-            "ageAsText": "0 hours 2 minutes 25 seconds",
             "clientOnly": 0,
-            "created": "2017-06-05T21:01:27Z",
+            "collisionless": 1,
+            "color": {
+                "blue": 0,
+                "green": 0,
+                "red": 255
+            },
+            "created": "2017-06-22T16:28:16Z",
+            "dimensions": {
+                "x": 0.92783915996551514,
+                "y": 1.5605180263519287,
+                "z": 0.49426007270812988
+            },
+            "id": "{ec33e2d2-989f-432b-809c-00b8b814c490}",
+            "ignoreForCollisions": 1,
+            "lastEdited": 1498150161308599,
+            "lastEditedBy": "{371908bf-c2d4-4075-ad47-fcbfac0922ff}",
+            "name": "tutorial/skip_enter1",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "x": -9.5211687088012695,
+                "y": 0.23704244196414948,
+                "z": 3.8372893333435059
+            },
+            "queryAACube": {
+                "scale": 1.8815937042236328,
+                "x": -10.461965560913086,
+                "y": -0.70375442504882812,
+                "z": 2.8964924812316895
+            },
+            "rotation": {
+                "w": 1,
+                "x": -1.52587890625e-05,
+                "y": -1.52587890625e-05,
+                "z": -1.52587890625e-05
+            },
+            "script": "atp:/tutorial/skipEnterEC.js",
+            "shape": "Cube",
+            "type": "Box",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "age": 2278.38232421875,
+            "ageAsText": "0 hours 37 minutes 58 seconds",
+            "clientOnly": 0,
+            "created": "2017-06-22T16:34:49Z",
             "dimensions": {
                 "x": 100,
                 "y": 100,
                 "z": 100
             },
-            "id": "{9d81ddf6-4849-4520-841c-f40a17d82b6d}",
-            "lastEdited": 1496696550822556,
-            "lastEditedBy": "{f2c8830b-a520-4cd6-aadb-0f8ff8063439}",
+            "id": "{15b82aaf-557b-4c83-b454-fdd032b748be}",
+            "lastEdited": 1498149299186037,
+            "lastEditedBy": "{371908bf-c2d4-4075-ad47-fcbfac0922ff}",
             "lifetime": 6000,
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "queryAACube": {
@@ -8452,18 +8578,18 @@
             "type": "PolyLine"
         },
         {
-            "age": 145.95573425292969,
-            "ageAsText": "0 hours 2 minutes 25 seconds",
+            "age": 2278.381103515625,
+            "ageAsText": "0 hours 37 minutes 58 seconds",
             "clientOnly": 0,
-            "created": "2017-06-05T21:01:27Z",
+            "created": "2017-06-22T16:34:49Z",
             "dimensions": {
                 "x": 100,
                 "y": 100,
                 "z": 100
             },
-            "id": "{618e3a29-977e-4b99-b419-956375418797}",
-            "lastEdited": 1496696550824714,
-            "lastEditedBy": "{f2c8830b-a520-4cd6-aadb-0f8ff8063439}",
+            "id": "{955dccc4-7a9a-479d-97df-d0ed1f6bc80a}",
+            "lastEdited": 1498149299187516,
+            "lastEditedBy": "{371908bf-c2d4-4075-ad47-fcbfac0922ff}",
             "lifetime": 6000,
             "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
             "queryAACube": {
@@ -8474,7 +8600,49 @@
             },
             "textures": "http://hifi-content.s3.amazonaws.com/caitlyn/production/raveStick/trailsNew_green.png",
             "type": "PolyLine"
+        },
+        {
+            "clientOnly": 0,
+            "collisionless": 1,
+            "color": {
+                "blue": 0,
+                "green": 0,
+                "red": 255
+            },
+            "created": "2017-06-22T16:47:56Z",
+            "dimensions": {
+                "x": 0.92783915996551514,
+                "y": 1.5605180263519287,
+                "z": 0.49426007270812988
+            },
+            "id": "{0add83af-a4bc-48ff-bd4e-b20773f441b2}",
+            "ignoreForCollisions": 1,
+            "lastEdited": 1498150145682542,
+            "lastEditedBy": "{371908bf-c2d4-4075-ad47-fcbfac0922ff}",
+            "name": "tutorial/skip_enter2",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "x": -0.96724313497543335,
+                "y": 0.23704244196414948,
+                "z": 2.8429436683654785
+            },
+            "queryAACube": {
+                "scale": 1.8815937042236328,
+                "x": -1.9080400466918945,
+                "y": -0.70375442504882812,
+                "z": 1.9021468162536621
+            },
+            "rotation": {
+                "w": 1,
+                "x": -1.52587890625e-05,
+                "y": -1.52587890625e-05,
+                "z": -1.52587890625e-05
+            },
+            "script": "atp:/tutorial/skipEnterEC.js",
+            "shape": "Cube",
+            "type": "Box",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
         }
     ],
-    "Version": 69
+    "Version": 70
 }
